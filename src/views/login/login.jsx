@@ -18,7 +18,7 @@ class Login extends React.Component {
       redirectedAdmin: false,
       mail: "",
       password: "",
-      url: `https://${process.env.REACT_APP_URL_API}:3001`
+      url: `https://${process.env.REACT_APP_URL_API}`
     };
     console.log("API URL : " + process.env.REACT_APP_URL_API);
     this.handleConnect = this.handleConnect.bind(this)
