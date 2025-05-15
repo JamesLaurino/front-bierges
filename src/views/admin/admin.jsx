@@ -19,7 +19,7 @@ class Admin extends React.Component {
             token: "",
             userList: "",
             isLoading: true,
-            url: `https://${process.env.REACT_APP_URL_API}:3001`
+            url: `https://${process.env.REACT_APP_URL_API}`
         };
         this.toggleSecret = this.toggleSecret.bind(this)
     };
